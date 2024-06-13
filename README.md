@@ -60,7 +60,7 @@ A request is sent to the `/frontend/registrant/upload-file` endpoint! That's cur
 
 Hmm, seems an awful lot like we're uploading an audio file to their server. Considering that the filename is `voice.mp3` and that the file header starts with `ID3` (which Wikipedia says "is a metadata container most often used in conjunction with the MP3 audio file format"), I would say that we're uploading a client-supplied file to the server! This is exactly what we want!
 
-Now how do we supply our own file to this endpoint in a way it can understand. We could copy the request and resend it with a different file, but there's definitely a simpler way to do it using our old friend inspect element and devtools!
+Now how do we supply our own file to this endpoint in a way it can understand? We could copy the request and resend it with a different file, but there's definitely a simpler way to do it using our old friend inspect element and devtools!
 
 ![image](https://github.com/nick-ls/commencement-custom-audio/assets/22565232/fd203558-cd30-4503-8022-4581052f744a)
 
